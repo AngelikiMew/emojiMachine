@@ -42,8 +42,7 @@ unshiftBtn.addEventListener('click', function() {
 popBtn.addEventListener('click', function() {
 
          myEmojis.pop();
-         console.log(myEmojis);
-         emojiInput.value='';
+        //console.log(myEmojis);
          renderArr();
 
 })
@@ -51,8 +50,7 @@ popBtn.addEventListener('click', function() {
 shiftBtn.addEventListener('click', function() {
 
          myEmojis.shift();
-         console.log(myEmojis);
-         emojiInput.value='';
+        // console.log(myEmojis);
          renderArr();
 
 })
