@@ -1,4 +1,4 @@
-let myEmojis = ["👨‍💻", "⛷", "🍲"];
+let myEmojis = ["❤️", "👩‍💻", "✈️","🎂"];
 const emojiContainer=document.getElementById('emojiContainer');
 const pushBtn= document.getElementById('push-btn');
 const emojiInput = document.getElementById('emoji-input');
@@ -17,6 +17,8 @@ function renderArr(){
 
     }
 }
+
+renderArr();
 
 pushBtn.addEventListener('click', function (){
     if (emojiInput.value!='' && emojiInput.value!=' ' ){
